@@ -16,8 +16,8 @@ function FlashScreen() {
                 style={styles.image} 
             />
             <View style={styles.adj} />
-            <ButtonComponent onPress={screenChangeHandler}>Login</ButtonComponent>
             <View style={styles.buttonContainer}>   
+            <ButtonComponent onPress={screenChangeHandler}>Login</ButtonComponent>
                 <TouchableOpacity style={styles.registerButton} onPress={screenChangeHandler}>
                     <Text style={styles.registerText}>Register</Text>
                 </TouchableOpacity>

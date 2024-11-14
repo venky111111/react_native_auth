@@ -18,8 +18,8 @@ export default ButtonComponent;
 
 const styles = StyleSheet.create({
   loginButton: {
-    width: '90%',
-    backgroundColor: '#333333',
+    width: '100%',
+    backgroundColor: '#202020',
     paddingVertical: 15,
     borderRadius: 8,
     alignItems: 'center',
